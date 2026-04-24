@@ -4,9 +4,13 @@ A Python-based Sudoku solver that models the puzzle as a Constraint Satisfaction
 
 # 📁 Project Structure
 ├── AI_AS_4.ipynb       # Main solver notebook
+
 ├── easy.txt            # Easy difficulty puzzle
+
 ├── medium.txt          # Medium difficulty puzzle
+
 ├── hard.txt            # Hard difficulty puzzle
+
 └── veryhard.txt        # Very hard difficulty puzzle
 
 # 🧠 How It Works
@@ -23,7 +27,7 @@ A recursive backtracking algorithm assigns values to variables one at a time, ch
 
 # 📊 Results
 ---------------------------------------------------
-#Puzzle     | Backtrack Calls | Backtrack Failures |
+Puzzle     | Backtrack Calls | Backtrack Failures |
 ---------------------------------------------------
 Easy       | 1               | 0                  | 
 Medium     | 95              | 69                 |
